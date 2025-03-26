@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --dark-color: #243962;
+    --light-color: #a3cfed;
+    --very-dark-color: #000d24cc;
+}
+body{
+    background: linear-gradient(-10deg, var(--very-dark-color) 0%, var(--dark-color) 90%, var(--very-dark-color) 100%);
+}

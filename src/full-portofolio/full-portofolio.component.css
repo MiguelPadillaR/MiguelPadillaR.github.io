@@ -1,0 +1,39 @@
+#presentation {
+    .about-me-section {
+        color: var(--light-color);
+        font-size: 1.2rem;
+        font-family: 'Raleway', Helvetica, sans-serif;
+        padding: 20px 1rem;
+        .about-me-header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1 {
+                border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+                font-weight: bolder;
+                text-align: center;
+                text-transform: uppercase;
+                width: 100%;
+            }
+        }
+        .about-me-content {
+            .first-paragraph {
+                font-family: 'Source Sans Pro', Helvetica, sans-serif;
+                font-size: larger;
+                font-weight: lighter;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-size: 20pt;
+                text-align: center;
+                span {
+                    padding: 10px 0;
+                    font-size: larger;
+                    text-decoration: underline;
+                }
+            }
+        }    
+    }
+}
