@@ -1,3 +1,72 @@
+.learn-more {
+    font-size: 1.4rem;
+    margin: 2rem 0;
+    a {
+        color: var(--dim-color);
+        font-family: 'Raleway', Helvetica, sans-serif;
+        &:hover {
+            color: var(--light-color);
+            transition: ease-in-out 0.2s;
+        }
+    }
+}
+
+#intro {
+    .introduction-content{
+        background: linear-gradient(-10deg, var(--very-dark-color) 0%, var(--dark-color) 90%, var(--very-dark-color) 100%);
+        border-radius: 10pt;
+        color: var(--light-color);
+        font-family: 'Raleway', Helvetica, sans-serif;
+        font-size: 1.2rem;
+        margin: 12rem 0;
+        padding: 1rem;
+        text-align: justify;
+        .intro-title {
+            border-bottom: solid 2px var(--dim-color);
+            color: var(--dim-color);
+            font-family: 'Source Sans Pro', Helvetica, sans-serif;
+            font-size: 3rem;
+            margin-bottom: 3rem;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.5rem;
+            font-weight: lighter;
+        }
+        .intro-subtitle{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-transform: uppercase;
+            span {
+                color: var(--dim-color);
+                padding: 10px 0;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+        }
+        .intro-animated {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+            img {
+                border-radius: 50%;
+                max-width: 300px;
+                width: auto;
+                height: auto;
+                object-fit: cover;
+                min-width: 150px;
+            }
+            
+            .middle-img {
+                max-width: 400px;
+            }
+        }
+    }
+}
+
 #presentation {
     .about-me-section {
         color: var(--light-color);
@@ -17,22 +86,10 @@
             }
         }
         .about-me-content {
-            .first-paragraph {
-                font-family: 'Source Sans Pro', Helvetica, sans-serif;
-                font-size: larger;
-                font-weight: lighter;
-                text-align: center;
-                text-transform: uppercase;
-            }
 
             p {
                 font-size: 20pt;
                 text-align: center;
-                span {
-                    padding: 10px 0;
-                    font-size: larger;
-                    text-decoration: underline;
-                }
             }
         }    
     }
