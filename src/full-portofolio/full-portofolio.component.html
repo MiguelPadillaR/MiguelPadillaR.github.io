@@ -1,11 +1,13 @@
 <div class="full-portofolio-container">
     <div id="intro" class="introduction-section">
+        <div id="welcome">
+            <h1>Hi! My name is Miguel Padilla</h1>
+        </div>
         <div class="introduction-content">
             <div class="intro-title">
-                Hi! My name is Miguel Padilla
-            </div>
+            </div>    
             <p>
-                During a couple of years away from Spain, I determined I wanted to help other people without neglecting my passion for software and programming. Fortunately, a new emerging career fitted perfectly:</p>
+                During a couple of years away from Spain, I determined <span class="higlight">I wanted to help other people without neglecting my passion for software and programming</span>. Fortunately, a new emerging career fitted perfectly:</p>
             <div class="intro-subtitle">
                 <span>Health Engineering</span>
             </div>
@@ -15,7 +17,7 @@
                 <img src="/assets/gif/phys.gif" alt="">
             </div>
             <p>
-                With a specialization in Bioinformatics, it combines biological and health-related subjects with software and data anlysis disciplines to produce digital solutions in any context. I’ve learned how to apply my knowledge in practical cases. With a knack for full-stack development and an interest in Machine Learning, I’m looking forward to applying everything I’m learning to real-world problems.
+                With a specialization in Bioinformatics, <span class="higlight">combines biological and health-related subjects with software and data analysis disciplines to produce digital solutions in any scientific context</span>. I’ve learned how to put my knowledge to use in practical cases. With a knack for full-stack development and an interest in Machine Learning, I’m looking forward to applying everything I’m learning to real-world problems.
             </p>
             <div class="learn-more">
                 <a 
@@ -41,12 +43,19 @@
             <div class="stacks-header">
                 <h1>Stacks and Technologies</h1>
             </div>
+            <div class="stacks-description">
+                <p>
+                    I started delving in web development during my last years of university, which provided me with a <span class="higlight"> strong foundation in both front and back end</span>. I've also got experience designing <span class="higlight">statistical data analysis pipelines, including collecting, filtering and processing</span>, as well as training machine learning classification models.
+                </p>
+            </div>
             <div class="stacks-grid">
                 @for (stack of stacks; track $index) {
                     <div class="stacks-item">
-                        <img class="stacks-icon" src="{{ stack.icon }}" alt="{{ stack.name}}">
+                        <a href="{{ stack.link }}" target="_blank">
+                            <img class="stacks-icon" src="{{ stack.icon }}" alt="{{ stack.name}}">
+                        </a>
+                        <span class="stacks-name">{{ stack.name }}</span>
                     </div>
-                    <span class="stacks-name">{{ stack.name }}</span>
                 }
             </div>
 
