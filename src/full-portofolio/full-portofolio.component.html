@@ -29,7 +29,7 @@
     </div>
     <div id="presentation" class="presentation-section">
         <div class="about-me-section">
-            <div class="about-me-header">
+            <div class="subsection-header">
                 <h1>About me</h1>
             </div>
             <div class="about-me-content">
@@ -67,17 +67,42 @@
     </div>
 
     <div id="projects" class="project-section">
-        <div class="preamble-section">
-
+        <div class="subsection-header">
+            <h1>Projects</h1>
         </div>
-        <div class="project-list-section">
+    <div class="project-list-section">
+        <div class="project-grid" >
+            @for (project of personalProjects; track $index) {
+                <div class="project-item">
+                    <div class="project-presentation">
+                        <div class="project-image">
+                            <img class="stacks-icon" src="{{ project.img }}" alt="{{ project.name}}">
+                        </div>
+                    </div>
+                    <div class="project-desc">
+                        <div class="project-title">
+                            <span class="project-name">{{ project.name }}</span>
+                        </div>
+                        <p>
+                            {{ project.desc }}
+                        </p>
+                        <div class="learn-more">
+                            <a href="{{ project.link }}" target="_blank">
+                                Learn more about {{ project.name }}
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            }
+        </div>
 
         </div>
     </div>
 
     <div id="my-life" class="my-life-section">
-        <div class="preamble-section">
-
+        <div class="subsection-header">
+            <h1>My life</h1>
         </div>
         <div class="volunteer-experience">
 

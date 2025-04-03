@@ -4,6 +4,8 @@
     --light-color: #a3cfed;
     --very-dark-color: #000d24cc;
     --dim-color: #9eadb8;
+    --main-font:'Raleway', Helvetica, sans-serif;
+    --secondary-font: 'Source Sans Pro', Helvetica, sans-serif
 }
 body {
     background: linear-gradient(-10deg, var(--very-dark-color) 0%, var(--dark-color) 90%, var(--very-dark-color) 100%);
