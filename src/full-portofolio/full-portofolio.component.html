@@ -5,9 +5,10 @@
         </div>
         <div class="introduction-content">
             <div class="intro-title">
+
             </div>    
             <p>
-                During a couple of years away from Spain, I determined <span class="higlight">I wanted to help other people without neglecting my passion for software and programming</span>. Fortunately, a new emerging career fitted perfectly:</p>
+                After a couple of years away from Spain, I determined <span class="higlight">I wanted to help other people without neglecting my passion for software and programming</span>. Fortunately, a new emerging career fitted perfectly:</p>
             <div class="intro-subtitle">
                 <span>Health Engineering</span>
             </div>
@@ -37,6 +38,40 @@
         <div class="skills-section">
             <div class="skills-header">
                 <h1>Skills</h1>
+            </div>
+            <div class="skills-description">
+                <p>
+                    Thanks to my participation on various assignments over 2 years of volunteering service, I've develop a solid foundation for <span class="higlight">soft skills based on experience</span> Given my technological background and education, along with some hands-on professional experience, I've also acquired a series of <span class="higlight">technical software-development oriented skills</span>.
+                </p>
+            </div>
+            <div class="skills-grid">
+                @if (skills.soft) {
+                    <div class="skills">
+                        <div class="skills-preamble">
+                            <p>Soft skills</p>
+                        </div>
+                        @for (skill of skills.soft; track $index) {
+                            <div class="skill">
+                                {{ skill }}
+                            </div>
+                        }
+                    </div>
+    
+                }
+                @if (skills.tech) {
+                    <div class="skills">
+                        <div class="skills-preamble">
+                            <p>Tech skills</p>
+                        </div>
+                        @for (skill of skills.tech; track $index) {
+                            <div class="skill">
+                                {{ skill }}
+                            </div>
+                        }
+                    </div>
+    
+                }
+
             </div>
         </div>
         <div class="stacks-section">
@@ -104,8 +139,12 @@
         <div class="subsection-header">
             <h1>My life</h1>
         </div>
-        <div class="volunteer-experience">
+        <div class="experience-grid">
+            <div class="experience-item">
+                
 
+            </div>
+    
         </div>
     </div>
 
