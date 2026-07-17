@@ -11,7 +11,7 @@
     }
 }
 
-.higlight {
+.highlight {
     color: var(--light-color);
     filter: brightness(1.25);
     text-decoration: underline;
