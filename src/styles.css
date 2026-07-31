@@ -99,7 +99,6 @@ app-full-portofolio {
 .skills-description p,
 .stacks-description p {
     font-size: 1.1rem;
-    margin: 0;
     text-align: justify;
 }
 

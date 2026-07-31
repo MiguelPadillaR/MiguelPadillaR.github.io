@@ -1,1 +1,150 @@
-:host{display:block;}.skills-header,.stacks-header{display:flex;justify-content:center;margin-bottom:.75rem;color:var(--light-color);font-family:var(--main-font);text-align:center}.skills-header h1,.stacks-header h1{border-bottom:solid 2px rgba(255,255,255,.125);font-size:clamp(1.4rem,2.2vw,1.8rem);font-weight:bolder;text-transform:uppercase;width:fit-content}.skills-description,.stacks-description{color:var(--light-color);font-family:var(--main-font);line-height:1.7;margin:0 auto 2rem;max-width:900px}.skills-description p,.stacks-description p{font-size:1.1rem;margin:0;text-align:justify}@media (max-width:900px){.full-portofolio-container{flex-direction:column;padding-top:6rem}.portfolio-sidebar{position:fixed;top:0;left:0;right:0;z-index:1000;width:100%;flex-basis:auto;border-radius:0 0 1rem 1rem;padding:1rem 1.25rem}.sidebar-title{text-align:center;margin-bottom:.75rem}.portfolio-nav{display:grid;grid-template-columns:repeat(3,minmax(0,auto));justify-content:center;gap:.5rem}.portfolio-nav a{padding:.45rem .7rem;text-align:center;font-size:.95rem}#welcome h1{font-size:2rem;margin-bottom:3rem;margin-top:3rem}#intro .introduction-content{font-size:1rem}#intro p,.contact-copy{font-size:1rem}#presentation .skills-grid{flex-wrap:wrap;gap:2rem}#presentation .skills-grid .skills{width:100%;margin:0 auto;font-size:1rem}#presentation .skills-grid .skill{font-size:1rem}#presentation .stacks-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;padding:1rem;overflow:hidden}#presentation .stacks-grid .stacks-icon{--icon-size:min(28vw,110px);width:var(--icon-size);height:auto;max-width:100%;object-fit:contain}#projects .project-item{flex-direction:column;align-items:center;padding:1.25rem}#projects .project-presentation{max-width:220px;width:100%;margin:0 auto 1rem}#projects .project-image img{display:block;margin:0 auto;width:min(55vw,220px);height:auto}#projects .project-desc{width:100%;font-size:1rem;text-align:justify}}
+:host {
+    display: block;
+}
+
+.skills-header,
+.stacks-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+    color: var(--light-color);
+    font-family: var(--main-font);
+    text-align: center;
+}
+
+.skills-header h1,
+.stacks-header h1 {
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    font-size: clamp(1.4rem, 2.2vw, 1.8rem);
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+.skills-description,
+.stacks-description {
+    color: var(--light-color);
+    font-family: var(--main-font);
+    line-height: 1.7;
+    margin: 0 auto 2rem;
+    max-width: 900px;
+}
+
+.skills-description p,
+.stacks-description p {
+    font-size: 1.1rem;
+    margin: 0 1rem;
+    text-align: justify;
+}
+
+@media (max-width: 900px) {
+
+    .full-portofolio-container {
+        flex-direction: column;
+        padding-top: 6rem;
+    }
+
+    .portfolio-sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        width: 100%;
+        flex-basis: auto;
+        border-radius: 0 0 1rem 1rem;
+        padding: 1rem 1.25rem;
+    }
+
+    .sidebar-title {
+        text-align: center;
+        margin-bottom: 0.75rem;
+    }
+
+    .portfolio-nav {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, auto));
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .portfolio-nav a {
+        padding: 0.45rem 0.7rem;
+        text-align: center;
+        font-size: 0.95rem;
+    }
+
+    #welcome h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    #intro .introduction-content {
+        font-size: 1rem;
+        margin: 0 1rem;
+    }
+
+    #intro p,
+    .contact-copy {
+        font-size: 1rem;
+    }
+
+    #presentation .skills-grid {
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin: 0 1rem;
+    }
+
+    #presentation .skills-grid .skills {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 1rem;
+    }
+
+    #presentation .skills-grid .skill {
+        font-size: 1rem;
+    }
+
+    #presentation .stacks-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+        padding: 1rem;
+        overflow: hidden;
+        margin: 0 1rem;
+    }
+
+    #presentation .stacks-grid .stacks-icon {
+        --icon-size: min(28vw, 110px);
+        width: var(--icon-size);
+        height: auto;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    #projects .project-item {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.25rem;
+        margin: 0 1rem;
+    }
+
+    #projects .project-presentation {
+        width: 100%;
+        max-width: 220px;
+        margin: 0 auto 1rem;
+    }
+
+    #projects .project-image img {
+        display: block;
+        width: min(55vw, 220px);
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #projects .project-desc {
+        width: 100%;
+        font-size: 1rem;
+        text-align: justify;
+    }
+}
