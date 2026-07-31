@@ -403,6 +403,51 @@ app-full-portofolio {
     padding: 1rem 0 2rem;
 }
 
+.contact-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 1rem 2rem;
+}
+
+.contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 999px;
+    color: var(--light-color);
+    font-family: var(--main-font);
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-link:hover,
+.contact-link:focus-visible {
+    background: rgba(255, 255, 255, 0.12);
+    color: var(--light-color);
+    transform: translateY(-2px);
+}
+
+.contact-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: 700;
+}
+
+.contact-label {
+    letter-spacing: 0.04em;
+}
+
 @media (max-width: 900px) {
     body {
         max-width: 100%;
