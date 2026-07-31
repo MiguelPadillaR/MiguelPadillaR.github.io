@@ -64,18 +64,26 @@ export class FullPortofolioComponent {
   ]
 
   public experiences = [
-    { 
-      name: 'Volunteering', 
-      img:'',
-      desc:"",
-      link: ''
-    },
-    { 
-      name: 'Volunteering', 
-      img:'',
-      desc:"",
-      link: ''
-    },
   ]
 
+  public volunteering = [
+    { 
+      name: 'Special Olympics Berlin 2023', 
+      img:'',
+      desc:"I assited athletes and representatives from all over the world during the week-long Special Olympics",
+      link: 'https://www.specialolympics.org/what-we-do/sports-and-competition/world-games/special-olympics-world-games-berlin-2023#:~:text=The%20Special%20Olympics%20World%20Games%202023%20took%20place%20this%20summer,another%20in%2026%20different%20sports.'
+    },
+    { 
+      name: 'FSY summer camps', 
+      img:'',
+      desc:"I have attended multiple times (2018-2024) to national For Strength of Youth (FSY) summer camps in many diverse roles. ",
+      link: 'https://www.churchofjesuschrist.org/youth/childrenandyouth/fsy/about/youth?lang=eng'
+    },
+    { 
+      name: 'Missionary service', 
+      img:'',
+      desc:"I served for two years (2016-2018) in Bolivia as a teaching missionary for the Church of Jesus Christ of Latter-Day Saints.",
+      link: 'https://newsroom.churchofjesuschrist.org/topic/missionary-program#:~:text=The%20missionary%20effort%20is%20based,in%20the%20book%20of%20Acts).'
+    },
+  ]
 }
