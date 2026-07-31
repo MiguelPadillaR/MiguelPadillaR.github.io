@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 export class FullPortofolioComponent {
   public skills = {
     soft: ["Public speaking", "Team worker", "Communicative", "Project and team management", "Conflict management and resolution", "Accountability and reporting",],
-    tech: ["Agile Methodologies", "Frontend/Backend development", "Data Analysis", "Big Data processing", "AI/ML techiniques", "Collaborative tools"]
+    tech: ["Agile Methodologies", "Frontend/Backend development", "Data Analysis", "Big Data processing", "AI/ML techniques", "Collaborative tools"]
   };
   
   public stacks = [
@@ -32,8 +32,8 @@ export class FullPortofolioComponent {
       link: 'https://github.com/MiguelPadillaR/hermes'
     },
     { 
-      name: 'AgrIA: The Agricultural Imaging Assitant',
-      img:'assets/img/hermes-logo.png',
+      name: 'KHAOS Research`s AgrIA: The Agricultural Imaging Assitant',
+      img:'assets/img/AgrIA-logo.png',
       desc: "Developed as part of a project from KHAOS Research Group, the Agricultural Imaging Assistant is an integrated image analysis and intelligent chat tool that specializes in agricultural satellite image classification. Designed to assist farmers and landowners, AgrIA facilitates crop valuation and provides a report that helps them qualify for various European Union eco-scheme aids within the framework of the Common Agricultural Policy (CAP). It is currently only applicalbe to Spain's national territory and fields, but allows modification to adapt to other EU member states.\nIt leverages an Angular-based frontend and a FastAPI Python server logic along with access to a fine-tuned locally deployed LLM and a Super-Resolution module for improved image visualization.",
       link: 'https://khaos.uma.es/'
     },
@@ -49,18 +49,18 @@ export class FullPortofolioComponent {
       desc: "Started during and internship and unfinished because of time constraints, the Center in Proximity tool (C-PRX) was designed to relieve medical personnel's workload by automatically assigning a patient to the nearest, most suitable and available healthcare center for their medical imaging needs.",
       link: ''
     },
-    { 
-      name: 'Misc#1',
-      img:'',
-      desc: 'Some desc',
-      link: ''
-    },
-    { 
-      name: 'Misc#2',
-      img:'',
-      desc: 'Some desc',
-      link: ''
-    },
+    // { 
+    //   name: 'Misc#1',
+    //   img:'',
+    //   desc: 'Some desc',
+    //   link: ''
+    // },
+    // { 
+    //   name: 'Misc#2',
+    //   img:'',
+    //   desc: 'Some desc',
+    //   link: ''
+    // },
   ]
 
   public experiences = [
